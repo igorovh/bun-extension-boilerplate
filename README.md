@@ -50,7 +50,7 @@ export type Mode = 'production' | 'development';
 const source: Record<Mode, string> = {
   production: chrome.runtime.getURL('index.js'),
   development:
-    'http://127.0.0.1:3360/bundle.js?cache=' + Math.random().toString(),
+    'http://127.0.0.1:3360/index.js?cache=' + Math.random().toString(),
 };
 
 const head =

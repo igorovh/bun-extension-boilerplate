@@ -63,3 +63,4 @@ script.src = source[__mode__];
 
 head.appendChild(script);
 ```
+Of coure you will have to change script for your project.
